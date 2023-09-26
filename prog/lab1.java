@@ -20,7 +20,7 @@ public class lab1 {
 					c[i][j] = Math.tan(Math.asin(Math.pow(X * Math.exp(1) + 1, 2)));					
 				}else {
 					double stepenb1 = Math.pow(Math.cos(X)/1- Math.pow(1/3*(1 - X), 2), 3);
-					c[i][j] = Math.pow(Math.pow(Math.pow(Math.exp(1), X)*(X/1/2 - X), Math.atan(Math.pow(X/1*Math.exp(1) + 1, 2))) - 1, stepenb1) - 0.5/Math.pow(Math.PI*(Math.log(Math.exp(X))) - 1, Math.exp(X)/0.25);w
+					c[i][j] = Math.pow(Math.pow(Math.pow(Math.exp(1), X)*(X/1/2 - X), Math.atan(Math.pow(X/1*Math.exp(1) + 1, 2))) - 1, stepenb1) - 0.5/Math.pow(Math.PI*(Math.log(Math.exp(X))) - 1, Math.exp(X)/0.25);
 				}
 			}
 		}
