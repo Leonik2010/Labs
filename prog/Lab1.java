@@ -1,5 +1,5 @@
 public class Lab1 {
-	public static void Main(String [] args) {
+	public static void main(String [] args) {
 		
 		long[] a = new long[23 - 6];
 		for (int i = 6; i < 23; i++) {
