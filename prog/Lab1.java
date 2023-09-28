@@ -1,5 +1,5 @@
 import static
-java.lang.Math.*;
+java.lang.*;
 public class Lab1 {
 	public static void main(String [] args) {
 		
@@ -9,7 +9,7 @@ public class Lab1 {
 		}
 		float[] b = new float[21];
 		for (int i = 0; i < 21; i++) {
-			b[i] = ((float)(Math.random()-0.5) * 10);
+			b[i] = ((float)(random()-0.5) * 10);
 		}
 		
 		double [][] c = new double[9][20];
@@ -17,12 +17,12 @@ public class Lab1 {
 			for (int j = 0; j < 20; j++){
 				float X = b[j];	
 				if (a[i] == 14) {
-					c[i][j] = Math.exp(Math.sin(0.75*(X - 0.25)));
+					c[i][j] = exp(sin(0.75*(X - 0.25)));
 				}else if (((a[i] == 8) || (a[i] == 18)) || ((a[i] == 20) || (a[i] == 22))) {
-					c[i][j] = Math.tan(Math.asin(Math.pow(X * Math.exp(1) + 1, 2)));					
+					c[i][j] = tan(asin(pow(X * exp(1) + 1, 2)));					
 				}else {
-					double stepenb1 = Math.pow(Math.cos(X)/1- Math.pow(1/3*(1 - X), 2), 3);
-					c[i][j] = Math.pow(Math.pow(Math.pow(Math.exp(1), X)*(X/1/2 - X), Math.atan(Math.pow(X/1*Math.exp(1) + 1, 2))) - 1, stepenb1) - 0.5/Math.pow(Math.PI*(Math.log(Math.exp(X))) - 1, Math.exp(X)/0.25);
+					double stepenb1 = pow(cos(X)/1- pow(1/3*(1 - X), 2), 3);
+					c[i][j] = pow(pow(pow(exp(1), X)*(X/1/2 - X), atan(pow(X/1*exp(1) + 1, 2))) - 1, stepenb1) - 0.5/pow(PI*(log(exp(X))) - 1, exp(X)/0.25);
 				}
 			}
 		}
