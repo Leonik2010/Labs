@@ -1,0 +1,129 @@
+\documentclass[12pt]
+{article}
+{\Large}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\graphicspath{ {im/} }
+\renewcommand\footnoterule{\vspace*{0.3cm}\hrule width 6.8cm\vspace*{0.3cm}}
+\geometry{verbose,a4paper,tmargin=2cm,bmargin=2cm,lmargin=1.5cm,rmargin=1.5cm}
+\begin{document}
+\begin{minipage}{0.43\textwidth}
+ду которыми \(r_{0} \approx 3{\dot{A}}\) \footnote[*)]{*) Для кристаала \(NaCl\) это расстояние равно \(2.814{\dot{A}}\)}. Предположим,что деформация остается упругой вплоть до деформации, соответствующей разрыву; иначе говоря,  большей упругой деформации соответствует напряжение, равное пределу прочности. Но максимальной упругой деформации приблизительно соответствует максимальное значение силы межатомного притяжения (см. рис. 1). \\
+\hspace*{16} Опыты с самыми прочными кристаллами показали, что их максимальная относительная упругая деформация \(\epsilon_{max}\) \footnote[**)]{**)Относительная деформация \(\epsilon\) рпи растяжении равна отношению абсолютной деформации тела к длине этого тела в нормальном состоянии} перед разрушением обычно не превышает 10-20\%. Положим \(\epsilon_{max} = \frac{1}{6} \approx 17\%\).
+Этой относительной деформации соответствует смещение этомов от положения равновесия на расстояние \(\Delta r = \epsilon r_{0} = \frac{1}{6}3{\dot{A}} = 0.5{\dot{A}}\).
+Таким образом, при подсчете сил межатомного притяжения для рассматриваемой модели кристалла за расстояние между нонами следует брать величину \\ \(r = r_{0} + \Delta r = 3{\dot{A}} + 0.5{\dot{A}} = 3.5{\dot{A}}\).\\
+\hspace*{16} Если учесть, что заряд каждого иона по величине равен заряду электрона, то есть \(q = 1.6*10^{-19}\) \textit{к}, то максимальное значение силы притяжения между двумя атомами будет равно
+\begin{center}\(F_{max} = \frac{1}{4\pi \epsilon_{0}} \frac{q^2}{r^2} = 9*10^9 \frac{(1.6*10^{-19})^2}{(3.5*10^{-10})^2} \approx\) 
+\end{center}
+\begin{flushright}
+    \(\approx 2*10^{-9}\) (\textit{н}).
+\end{flushright}
+Таково по порядку величины значение единичной силы межатомной связи.
+\begin{flushleft}
+    \textbf{Прочность кристалла}
+\end{flushleft}
+Оценим примерное число атомов приходящихся на единицу поверхности разрыва кристалла
+\end{minipage}
+\hfill
+\begin{minipage}{0.43\textwidth}
+\hspace*{16}Диаметр иона равен приблизительно расстоянию между соседними ионами. Мы считали это расстояние равным \(3 \dot{A}\), тогда число атомов на каждом квадратном метре поверхности разрыва кристалла
+\begin{center}
+\(N_{\textit{ат}} \sim \frac{1}{(3*10^{-20})^2} \approx 10^{19} \hspace{3} (\frac{1}{\textit{м}^2})\).
+\end{center}
+\hspace*{16}В нашей модели кристалла число связей, проходящих через единицу площади, равно числу атомов \(N_{\textit{св}} = N_{\textit{ат}}\), значит, \(N_{\textit{св}} \approx 10^{19} \hspace{3} \textit{м}^{-2}\).\\
+\hspace*{16}Теперь можно оценить теорети-
+ческую величину предела прочности
+кристаллов:
+\begin{center}
+\(\delta \approx 2*10^{10} \hspace{3} \textit{н}/\textit{м}^2\).
+\end{center}
+
+\begin{flushleft}
+\textbf{Оценка величины модуля упругости}\end{flushleft}
+Если известны значения единичной межатомной связи и, следовательно, предела прочности кристаллов, то можно оценить величину модуля упругости.
+
+\hspace*{16}По закону Гука в пределах упругой деформации напряжение пропорционально растяжению. Коэффициент пропорциональности между величиной деформации \(\epsilon\) и напряжением \(\delta\) (модуль упругости)
+\begin{center}
+    \(E = \frac{\delta}{\epsilon}\).
+\end{center}
+\hspace*{16}Так как величина прочности по нашей оценке
+\begin{center}
+\(\delta \approx 2*10^{10} \hspace{3} \textit{н}/\textit{м}^2\),
+\end{center}
+а максимальная упругая деформация \(\epsilon_{max} \approx \frac{1}{6}\), то модуль упругости
+\begin{center}
+\(E = \frac{2*10^{10}*6}{1} \approx 10^{11}(\frac{\textit{н}}{\textit{м}^2})\).
+\end{center}
+\hspace*{16}Результат расчета по порядку величины соответствует экспериментальным данным, Например, модуль упругости стали \(2*10^{11} \hspace{3} \textit{н}/\textit{м}^2\), алюминия \(0.7*10^{11} \hspace{3} \textit{н}/\textit{м}^2\), каменной соли -- \(0.4*10^{11} \hspace{3} \textit{н}/\textit{м}^2\).
+
+\end{minipage}
+
+\begin{page}
+\begin{flushleft}
+\includegraphics{1.png} \\
+Рисунок 1
+\end{flushleft}
+\begin{flushright}
+
+    \includegraphics[scale=0.5]{2.png} \\
+Рисунок 2 \\ 
+\includegraphics[angle=160]{3.png} \\
+Рисунок 3 \\ 
+
+\end{flushright}
+\begin{enumerate}
+    \item 
+\begin{tabular}{|l|l|l|p{3.5cm}|}
+\hline
+123 & 123 & 132 & 132 \\ 
+132 & 123 & 123 & 123 \\
+\hline
+\end{tabular}
+    \item
+\begin{center}  
+\begin{tabular}{|l|l|l||l|p{6cm}|}
+\hline
+123 & 123 & 132 & 132 & 132 \\ 
+132 & 123 & 123 & 123 & 132 \\
+\hline
+\end{tabular}
+\end{center}
+    \item 
+\begin{flushright}     
+\begin{tabular}{|l|l|||||||||||||l|}
+\hline
+123 & 123 & 132 \\ 
+132 & 123 & 123 \\
+\hline
+\end{tabular}
+\end{flushright}
+\end{enumerate}
+
+\begin{tabular}{|l|l|}
+\hline
+123  123 132 &  \\ 
+ & 123 123 \\
+\hline
+\end{tabular} \\
+
+
+\begin{table}[b]
+\caption{\label{tab:ььь} перемещённая вниз}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\multirow{Можно и так} & \multicolumn{2}{c|}{что-то} \\
+\cline{2-3}
+            & Интересно & вау \\
+\cline{2-3}
+            & очень & 1 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\end{page}
+\end{document}
