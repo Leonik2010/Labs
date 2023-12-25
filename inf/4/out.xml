@@ -1,0 +1,200 @@
+<shedule>
+    <day>Понедельник</day>
+    <week>odd</week>
+    <month>Ноябрь</month>
+    <date>06</date>
+    <classes>
+        <first>
+            <name>Математический анализ</name>
+            <teacher>
+                <who>Беспалов Владимир Владимирович</who>
+                <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+            </teacher>
+            <who>Беспалов Владимир Владимирович</who>
+            <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+            <class>2412</class>
+            <where>Кронверкский пр., д.49, лит.А</where>
+            <type>Практика</type>
+            <time>08:20-09:50</time>
+        </first>
+        <name>Математический анализ</name>
+        <teacher>
+            <who>Беспалов Владимир Владимирович</who>
+            <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+        </teacher>
+        <who>Беспалов Владимир Владимирович</who>
+        <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+        <class>2412</class>
+        <where>Кронверкский пр., д.49, лит.А</where>
+        <type>Практика</type>
+        <time>08:20-09:50</time>
+        <second>
+            <name>Математический анализ</name>
+            <teacher>
+                <who>Беспалов Владимир Владимирович</who>
+                <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+            </teacher>
+            <who>Беспалов Владимир Владимирович</who>
+            <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+            <class>2412</class>
+            <where>Кронверкский пр., д.49, лит.А</where>
+            <type>Практика</type>
+            <time>10:00-11:30</time>
+        </second>
+        <name>Математический анализ</name>
+        <teacher>
+            <who>Беспалов Владимир Владимирович</who>
+            <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+        </teacher>
+        <who>Беспалов Владимир Владимирович</who>
+        <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+        <class>2412</class>
+        <where>Кронверкский пр., д.49, лит.А</where>
+        <type>Практика</type>
+        <time>10:00-11:30</time>
+        <third>
+            <name>Информатика</name>
+            <teacher>
+                <who>Авксентьева Елена Юрьевна</who>
+                <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+            </teacher>
+            <who>Авксентьева Елена Юрьевна</who>
+            <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+            <class>2116</class>
+            <where>Кронверкский пр., д.49, лит.А</where>
+            <type>Лабораторная</type>
+            <time>11:40-13:10</time>
+        </third>
+        <name>Информатика</name>
+        <teacher>
+            <who>Авксентьева Елена Юрьевна</who>
+            <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+        </teacher>
+        <who>Авксентьева Елена Юрьевна</who>
+        <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+        <class>2116</class>
+        <where>Кронверкский пр., д.49, лит.А</where>
+        <type>Лабораторная</type>
+        <time>11:40-13:10</time>
+        <fourth>
+            <name>Информатика</name>
+            <teacher>
+                <who>Авксентьева Елена Юрьевна</who>
+                <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+            </teacher>
+            <who>Авксентьева Елена Юрьевна</who>
+            <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+            <class>2116</class>
+            <where>Кронверкский пр., д.49, лит.А</where>
+            <type>Лабораторная</type>
+            <time>13:30-15:00</time>
+        </fourth>
+        <name>Информатика</name>
+        <teacher>
+            <who>Авксентьева Елена Юрьевна</who>
+            <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+        </teacher>
+        <who>Авксентьева Елена Юрьевна</who>
+        <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+        <class>2116</class>
+        <where>Кронверкский пр., д.49, лит.А</where>
+        <type>Лабораторная</type>
+        <time>13:30-15:00</time>
+    </classes>
+    <first>
+        <name>Математический анализ</name>
+        <teacher>
+            <who>Беспалов Владимир Владимирович</who>
+            <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+        </teacher>
+        <who>Беспалов Владимир Владимирович</who>
+        <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+        <class>2412</class>
+        <where>Кронверкский пр., д.49, лит.А</where>
+        <type>Практика</type>
+        <time>08:20-09:50</time>
+    </first>
+    <name>Математический анализ</name>
+    <teacher>
+        <who>Беспалов Владимир Владимирович</who>
+        <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+    </teacher>
+    <who>Беспалов Владимир Владимирович</who>
+    <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+    <class>2412</class>
+    <where>Кронверкский пр., д.49, лит.А</where>
+    <type>Практика</type>
+    <time>08:20-09:50</time>
+    <second>
+        <name>Математический анализ</name>
+        <teacher>
+            <who>Беспалов Владимир Владимирович</who>
+            <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+        </teacher>
+        <who>Беспалов Владимир Владимирович</who>
+        <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+        <class>2412</class>
+        <where>Кронверкский пр., д.49, лит.А</where>
+        <type>Практика</type>
+        <time>10:00-11:30</time>
+    </second>
+    <name>Математический анализ</name>
+    <teacher>
+        <who>Беспалов Владимир Владимирович</who>
+        <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+    </teacher>
+    <who>Беспалов Владимир Владимирович</who>
+    <link_to_teacher>https://my.itmo.ru/persons/182086</link_to_teacher>
+    <class>2412</class>
+    <where>Кронверкский пр., д.49, лит.А</where>
+    <type>Практика</type>
+    <time>10:00-11:30</time>
+    <third>
+        <name>Информатика</name>
+        <teacher>
+            <who>Авксентьева Елена Юрьевна</who>
+            <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+        </teacher>
+        <who>Авксентьева Елена Юрьевна</who>
+        <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+        <class>2116</class>
+        <where>Кронверкский пр., д.49, лит.А</where>
+        <type>Лабораторная</type>
+        <time>11:40-13:10</time>
+    </third>
+    <name>Информатика</name>
+    <teacher>
+        <who>Авксентьева Елена Юрьевна</who>
+        <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+    </teacher>
+    <who>Авксентьева Елена Юрьевна</who>
+    <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+    <class>2116</class>
+    <where>Кронверкский пр., д.49, лит.А</where>
+    <type>Лабораторная</type>
+    <time>11:40-13:10</time>
+    <fourth>
+        <name>Информатика</name>
+        <teacher>
+            <who>Авксентьева Елена Юрьевна</who>
+            <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+        </teacher>
+        <who>Авксентьева Елена Юрьевна</who>
+        <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+        <class>2116</class>
+        <where>Кронверкский пр., д.49, лит.А</where>
+        <type>Лабораторная</type>
+        <time>13:30-15:00</time>
+    </fourth>
+    <name>Информатика</name>
+    <teacher>
+        <who>Авксентьева Елена Юрьевна</who>
+        <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+    </teacher>
+    <who>Авксентьева Елена Юрьевна</who>
+    <link_to_teacher>https://my.itmo.ru/persons/187939</link_to_teacher>
+    <class>2116</class>
+    <where>Кронверкский пр., д.49, лит.А</where>
+    <type>Лабораторная</type>
+    <time>13:30-15:00</time>
+</shedule>
